@@ -1,0 +1,42 @@
+* body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+ }
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #910F06;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    ;
+}
+
+
+.element {
+    position: relative;
+    border: 3px solid #450601;
+    transform: rotateZ(22deg);
+    transition-duration: 300ms;
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: .99s;
+    background-color: #DE2C1F;
+    opacity: 1;
+}
+
+.element:hover {
+   
+    border: 3px solid #06913F;
+    background-color: #00451C;
+    transform: rotateZ(382deg);
+    opacity: 0.55;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
